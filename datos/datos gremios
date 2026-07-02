@@ -1,0 +1,15 @@
+-- Flores Thiago - Datos Gremios
+use Juego_test
+insert into gremios (Nombre, Descripción) values
+('Los Caballeros de Alva', 'Gremio enfocado en la defensa del reino y misiones.'),
+('Fénix Oscuro', 'Jugadores competitivos orientados al combate PVP.'),
+('Mercaderes de Oro', 'Dedicados al comercio de objetos raros y artesanía.'),
+('Exploradores del Alba', 'Unidos para descubrir zonas ocultas del mapa.'),
+('Lobos Solitarios', 'Comunidad para jugadores que prefieren avanzar juntos.');
+
+insert into Personaje_Gremios (id_personaje, id_gremio, Rango) values
+(1, 1, 'Líder'),
+(2, 1, 'Recluta'),
+(3, 2, 'Oficial'),
+(4, 3, 'Miembro'),
+(1, 4, 'Veterano');

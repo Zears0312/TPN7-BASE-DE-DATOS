@@ -1,4 +1,4 @@
--- Flores Thiago - Tabla Jugadores
+-- Flores Thiago - Datos Jugadores
 use Juego_test
 INSERT INTO Jugadores (Nombre, CorreoElectronico, Contraseña, País, IdiomaPreferido, FechaNacimiento) VALUES 
 ('Alejandro Gómez', 'alejandro.gomez@example.com', 'contraseña1', 'México', 'Español', '1995-04-12'),

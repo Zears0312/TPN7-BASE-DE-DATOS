@@ -1,4 +1,4 @@
--- Flores Thiago - Tabla Objetos
+-- Flores Thiago - Datos Objetos
 use Juego_test
 insert into Objetos (id_personaje, Nombre, Tipo, Efectos, Durabilidad, ValorVenta) values
 (2, 'Espada de Hierro', 'Arma', '+15 de Ataque Físico', 100, 250),

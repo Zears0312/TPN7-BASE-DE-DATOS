@@ -1,4 +1,4 @@
--- Flores Thiago - Tabla Personajes
+-- Flores Thiago - Datos Personajes
 use Juego_test
 insert into personaje (ID_Jugadores, Nombre, Nivel, Salud, EnergiaMag, Fuerza, Agilidad, Inteligencia, Velocidad_De_Movimiento, FechaCreacion) values
 (1, 'Guerrero', 10, 150, 50, 18, 14, 12, 110, '2026-01-15'),

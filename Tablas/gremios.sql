@@ -3,7 +3,7 @@ go
 create table gremios (
 id_gremio int identity (1,1) primary key,
 Nombre nvarchar(50) not null Unique ,
-Descripción nvarchar(50) not null,
+Descripción nvarchar(50) not null
 );
 go
 create table Personaje_Gremios(
